@@ -28,6 +28,8 @@
   color: #333;
   text-decoration: none;
   transition: all 0.3s ease;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
 }
 
 .navbar__link:hover {
