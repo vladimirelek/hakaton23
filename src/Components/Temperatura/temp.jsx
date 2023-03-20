@@ -57,10 +57,10 @@ const Temperature = () => {
   return (
     <div className="container">
       <div className="widget">
-        <div className="txt">{`Vrijeme:${currentTime}`}</div>
-        <div className="txt">{city}</div>
-        <div className="txt">{temperature} °C</div>
-        <div className="txt">{`Vjetar:${windSpeed}km/h`}</div>
+        <div className="tekst">{`Vrijeme:${currentTime}`}</div>
+        <div className="tekst">{city}</div>
+        <div className="tekst">{temperature} °C</div>
+        <div className="tekst">{`Vjetar:${windSpeed}km/h`}</div>
         <div className="unos-lokacije">
           <input type="text" id="textInput" placeholder="unesite lokaciju" />
           <button class="lokacija" onClick={storeInput}>
