@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Prozor.css";
-import Popap from "C:/Users/Goran/Desktop/komiti/hakaton2023-master/src/Components/Prozori/Popap.js";
+import Popap from "./Popap";
 
 const btnClose = "btn btn-outline-danger btn-rounded";
 const btnOpen = "btn btn-outline-success btn-rounded";
