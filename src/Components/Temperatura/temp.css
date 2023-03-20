@@ -1,0 +1,69 @@
+*{
+  margin: auto;
+}
+.container{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url("../img/wall.jpg");
+}
+
+.widget{
+  margin-top: 15px;
+  position:relative;
+  left: 570px;
+  width: 250px;
+  height: 100px;
+  background-image: url("../img/obicna.jpg");
+  border-radius: 15px;
+}
+
+.widget1 {
+  position: relative;
+  image-rendering: auto;
+  margin-bottom: 277px;
+  left: 570px;
+  top:100px;
+}
+
+.unos-lokacije{
+  margin-top: 25px;
+}
+
+.txt{
+  margin-top: 3px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.txt1 {
+  position: relative;
+ bottom: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  margin-bottom: 30px;
+}
+
+.txt2 {
+  position: relative;
+  bottom: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.lokacija{
+  background-color: white;
+  color: #19A7CE;
+  border: 1px solid #19A7CE;
+}
+
+.lokacija:hover{
+  background-color: #19A7CE;
+  color: white;
+}

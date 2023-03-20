@@ -1,5 +1,6 @@
 import "./signup.css";
 import { useState } from "react";
+
 const SignUp = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -7,8 +8,9 @@ const SignUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Sign up form submitted with:", name, email, password);
+    console.log("Sign up form submitted with:",name, email, password);
   };
+
 
   return (
     <div className="auth-form">
@@ -44,9 +46,10 @@ const SignUp = () => {
             required
           />
         </div>
-        <button type="submit">Sign Up</button>
+        <button type="submit" >Sign Up</button>
       </form>
     </div>
   );
 };
+
 export default SignUp;
