@@ -1,7 +1,9 @@
+import Temperature from "../../Components/Temperatura/temp";
+
 const Home = () => {
   return (
     <div>
-      <h1>HOME PAGE</h1>
+      <Temperature />
     </div>
   );
 };
